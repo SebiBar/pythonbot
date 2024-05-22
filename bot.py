@@ -56,4 +56,4 @@ async def size(ctx):
     attachment = ctx.message.attachments[0] 
     await ctx.send(f"{attachment.width} x {attachment.height} ({attachment.size/1000000} MB)")
 
-bot.run("ODAwNzcyNzMzOTUxNjcyMzcw.YAW_uQ.4aiYl7nthwHl3OzAsOiqgoHzN3U")
+bot.run("TOKEN")
