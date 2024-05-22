@@ -10,7 +10,7 @@ async def on_ready():
     await bot.change_presence(
         status=discord.Status.do_not_disturb, 
         activity=discord.Activity(type=discord.ActivityType.listening, name="@Mafiot"))
-    print("neatza bro")
+    print("neatza")
 
 @bot.event
 async def on_command_error(ctx, error):
